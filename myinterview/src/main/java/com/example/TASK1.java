@@ -43,11 +43,11 @@ public class TASK1 {
 				loop = false;
 			}
 		}
-		System.exit(0);
+		scanner.close();
 	}
 
 	private static boolean isPalindrome(String input) {
-		
+
 		// Arrumar formatacao da string tirando os espacos e deixando tudo letra minuscula
 		String copyInput = input.trim().replaceAll("\\s+", "").toLowerCase();
 
@@ -57,5 +57,4 @@ public class TASK1 {
 		// Retorna true ou false na comparacao da string formatada com a espelhada
 		return reverseString.toString().equals(copyInput);
 	}
-
 }
