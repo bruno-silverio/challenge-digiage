@@ -1,29 +1,68 @@
-## README
+<div align="center">
+  
+  ## 🚀 Challenge Digiage 🚀
+  
+</div>
+
+### What is this repository for?
+
+Este é um teste para que possamos ver as suas habilidades como Back-end Developer.
+O objetivo é conhecer seus skills técnicos e também nos ajudar a melhorar os nossos métodos de recrutamento. 
+
+### TASKS
+
+- [ ] Java
+  - [X] TASK1 - Palindrome
+  - [X] TASK2 - Manipulating List
+  - [X] TASK3 - Distinct items on a list
+  - [ ] TASK4 - Implementation of a Rest API client
+  - [ ] TASK5 - Implementation of a Rest API
+- [X] MySQL Querys
+- [X] Grafana Dashboard
+- [X] About me
+
+## How to install and use the project (instructions)
+
+  - TASK1 - Palindrome
+    
+    > Select the main class, and run Run As -> Java Application
+    
+  - TASK2 - Manipulating List
+    
+    > Select the main class, and run Run As -> Java Application
+    
+  - TASK3 - Distinct items on a list
+
+     > Select the main class, and run Run As -> Java Application
+
+  - TASK4 - Implementation of a Rest API client
+  - TASK5 - Implementation of a Rest API
+
+## Sobre o SQL
+
+<div align="center">
+  
+  ####	Query que retorna à quantidade de funcionários separados por sexo
+  
+  <img src="">
+
+  #### Query que retorna à quantidade de funcionários distintos por sexo, ano e ano de nascimento
+    
+  <img src="">
+
+  #### Query que retorna a média, min e max de salário por sexo
+  
+  <img src="">
+
+</div>
+
+## Grafana Dashboard
 
 
-## What is this repository for?
-1. This repository contains some code. It might be compiling or not :)
+## Um "Texto" qualquer
 
-### Before you start
 
-- The project must use the specific language in the assessment. For example: Python, R, Scala, and others;
-- Consider the assessment deadline starting from the beginning of the test. If you have been invited to take the test and cannot complete it within this period, notify the person who invited you to receive instructions on what to do.
-- Document the entire investigation process for the development of the activity (README.md in your repository); the results of these tasks are as important as your thought process and decisions as you complete them, so try to document and present your hypotheses and decisions as much as possible.
 
-## Contribution guidelines and Tips
-
-1. All tips and contributions are welcome. But be aware that existing errors might not be an accident. We would appreciate if you let us know anything that you realize during the exam. We expect that and it could raise your interview evaluation up.
-
-## Repository README
-
-- Should contain the project title
-- A project description in a sentence
-- Must include a list of languages, frameworks, and/or technologies used
-- How to install and use the project (instructions)
-- Don't forget the [.gitignore](https://www.toptal.com/developers/gitignore)
-- If you are using a personal GitHub, reference that it is a challenge by Coodesh:
-
-> This is a challenge by [Coodesh](https://coodesh.com/)
 
 ## Finalization and Presentation Instructions
 
@@ -35,3 +74,17 @@
 ## Support
 
 Use [our community](https://discord.gg/rdXbEvjsWu) to ask questions about the process or send a message directly to a specialist in the platform chat.
+- Don't forget the [.gitignore](https://www.toptal.com/developers/gitignore)
+  
+> This is a challenge by [Coodesh](https://coodesh.com/) and [Digiage](https://digiage.com.br) 
+
+##
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java" />
+    <img src="https://skillicons.dev/icons?i=eclipse" />
+    <img src="https://skillicons.dev/icons?i=mysql" />
+    <img src="https://skillicons.dev/icons?i=aws" />
+    <img src="https://skillicons.dev/icons?i=grafana" />
+  </a>
+</p>
