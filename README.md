@@ -61,8 +61,9 @@ O objetivo é conhecer seus skills técnicos e também nos ajudar a melhorar os 
 
 ## Um "Texto" qualquer
 
+Desenvolvedor de software apaixonado por criar produtos de sucesso que enfrentem desafios com eficiência. Estudo as melhores práticas de desenvolvimento e arquitetura de software, como system design, clean code, microsserviços, SOLID, TDD/BDD, Git Flow e muito mais. Possuo experiência diversificada em áreas como gestão de eventos, imóveis de veraneio, mobilidade urbana e comércio exterior, adquirida em passagens pela startup Parkeen, pela multinacional Thomson Reuters e em projetos pessoais. Reconhecido como um team player dedicado, focado em entregar resultados e maximizar lucros.
 
-
+Trago para a mesa um espírito colaborativo, dedicado a alcançar resultados tangíveis e otimizar a rentabilidade. Com uma base sólida na simplificação de processos para melhorar a experiência do cliente, estou comprometido em impulsionar a inovação e buscar excelência em todos os projetos e estudos. Gosto de passar tempo com amigos e família e de estudar temas variados como fé, lógica e filosofia. Faço atividade física regularmente, incluindo musculação e luta, e gosto de incentivar as pessoas próximas a participarem também.
 
 ## Finalization and Presentation Instructions
 
