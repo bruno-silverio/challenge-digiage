@@ -39,22 +39,30 @@ O objetivo é conhecer seus skills técnicos e também nos ajudar a melhorar os 
   - TASK5 - Implementation of a Rest API
 
 ## Sobre o SQL
-
-<div align="center">
   
-  ####	Query que retorna à quantidade de funcionários separados por sexo
+####	Query que retorna à quantidade de funcionários separados por sexo
   
-  <img src="">
+```sql
+SELECT count(*) AS qtd, gender FROM employees GROUP BY gender;
+```
 
-  #### Query que retorna à quantidade de funcionários distintos por sexo, ano e ano de nascimento
+#### Query que retorna à quantidade de funcionários distintos por sexo, ano e ano de nascimento
     
-  <img src="">
+```sql
+SELECT count(*) AS qtd, gender, YEAR(hire_date) AS ano_contrato, YEAR(birth_date) AS ano_nascimento 
+FROM employees 
+GROUP BY gender, YEAR(hire_date), YEAR(birth_date);
+```
 
-  #### Query que retorna a média, min e max de salário por sexo
+#### Query que retorna a média, min e max de salário por sexo
   
-  <img src="">
-
-</div>
+```sql
+SELECT e.gender, AVG(s.salary), MIN(s.salary), MAX(s.salary)
+FROM employees e
+JOIN salaries s
+ON e.emp_no = s.emp_no
+GROUP BY e.gender;
+```
 
 ## Grafana Dashboard
 
@@ -65,12 +73,8 @@ Desenvolvedor de software apaixonado por criar produtos de sucesso que enfrentem
 
 Trago para a mesa um espírito colaborativo, dedicado a alcançar resultados tangíveis e otimizar a rentabilidade. Com uma base sólida na simplificação de processos para melhorar a experiência do cliente, estou comprometido em impulsionar a inovação e buscar excelência em todos os projetos e estudos. Gosto de passar tempo com amigos e família e de estudar temas variados como fé, lógica e filosofia. Faço atividade física regularmente, incluindo musculação e luta, e gosto de incentivar as pessoas próximas a participarem também.
 
-## Finalization and Presentation Instructions
+## Presentation of the project
 
-1. Add the link to the repository with your solution to the test
-2. Add the link to the presentation of your project in the README.md.
-3. Check if the README is good and make the final commit in your repository;
-4. Send and await instructions to proceed. Success and good luck. =)
 
 ## Support
 
