@@ -63,6 +63,7 @@ JOIN salaries s
 ON e.emp_no = s.emp_no
 GROUP BY e.gender;
 ```
+- <a href="https://github.com/bruno-silverio/challenge-digiage/blob/main/employeesMySQL.pdf">Relatório MySQL</a>
 
 ## Grafana Dashboard
 
