@@ -28,17 +28,21 @@ public class TASK1 {
 		while (loop) {
 
 			System.out.println("Enter a string:");
-			String input = scanner.nextLine();
+			String input = scanner.nextLine(); // The variable input contains the characters for analysis
 
+			// If the function return TRUE, then the input is a palindrome
 			if (isPalindrome(input)) {
 				System.out.println("The string ´" + input + "´ is a palindrome!");
-			} else {
+			} 
+			// If the function return FALSE, then the input is not a palindrome
+			else {
 				System.out.println("The string ´" + input + "´ isn't a palindrome!");
 			}
 
 			System.out.println("Try again? (Y/N)");
 			String op = scanner.nextLine();
-
+			
+			// If the user wants to stop the application, they will press 'N' or 'n' (no).
 			if (op.equalsIgnoreCase("N")) {
 				loop = false;
 			}
@@ -48,13 +52,13 @@ public class TASK1 {
 
 	private static boolean isPalindrome(String input) {
 
-		// Arrumar formatacao da string tirando os espacos e deixando tudo letra minuscula
+		// Fix the string formatting by removing the spaces and converting everything to lowercase.
 		String copyInput = input.trim().replaceAll("\\s+", "").toLowerCase();
 
-		// Gerar uma copia espelhada da string
+		// Generate a mirrored copy of the string
 		String reverseString = new StringBuilder(copyInput).reverse().toString();
 
-		// Retorna true ou false na comparacao da string formatada com a espelhada
+		// Return true or false when comparing the original string with the mirrored one.
 		return reverseString.toString().equals(copyInput);
 	}
 }
