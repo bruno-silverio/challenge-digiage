@@ -67,6 +67,7 @@ GROUP BY e.gender;
 
 ## Grafana Dashboard
 
+- <a href="https://github.com/bruno-silverio/challenge-digiage/blob/main/grafanaDashboard.pdf">Relatório Grafana Dashboard</a>
 
 ## Um "Texto" qualquer
 
