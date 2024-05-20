@@ -60,9 +60,9 @@ public class EmployeeController {
 
 	@DeleteMapping(value = "delete") // URL
 	@ResponseBody /* Descricao da resposta */
-	public ResponseEntity<String> delete(@RequestParam Long idemp) { /* Recebe os dados para delete */
+	public ResponseEntity<String> delete(@RequestParam Long idemployee) { /* Recebe os dados para delete */
 
-		employeeRepository.deleteById(idemp);
+		employeeRepository.deleteById(idemployee);
 
 		return new ResponseEntity<String>("Employee deleted", HttpStatus.OK);
 	}
@@ -80,12 +80,12 @@ public class EmployeeController {
 		return new ResponseEntity<Employee>(emp, HttpStatus.OK);
 	}
 
-	@GetMapping(value = "findemployeeid") // URL
+	@GetMapping(value = "findbyid") // URL
 	@ResponseBody /* Descricao da resposta */
-	public ResponseEntity<Employee> findEmployee(
-			@RequestParam(name = "idemployee") Long idemp) { /* Recebe os dados para consultar */
+	public ResponseEntity<Employee> findById(
+			@RequestParam(name = "idemployee") Long idemployee) { /* Recebe os dados para consultar */
 
-		Employee emp = employeeRepository.findById(idemp).get();
+		Employee emp = employeeRepository.findById(idemployee).get();
 
 		return new ResponseEntity<Employee>(emp, HttpStatus.OK);
 	}
