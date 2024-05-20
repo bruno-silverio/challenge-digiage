@@ -11,12 +11,12 @@ O objetivo é conhecer seus skills técnicos e também nos ajudar a melhorar os 
 
 ### TASKS
 
-- [ ] Java
+- [X] Java
   - [X] TASK1 - Palindrome
   - [X] TASK2 - Manipulating List
   - [X] TASK3 - Distinct items on a list
-  - [ ] TASK4 - Implementation of a Rest API client
-  - [ ] TASK5 - Implementation of a Rest API
+  - [X] TASK4 - Implementation of a Rest API client
+  - [X] TASK5 - Implementation of a Rest API
 - [X] MySQL Querys
 - [X] Grafana Dashboard
 - [X] About me
@@ -36,7 +36,16 @@ O objetivo é conhecer seus skills técnicos e também nos ajudar a melhorar os 
      > Select the main class, and run Run As -> Java Application
 
   - TASK4 - Implementation of a Rest API client
+
+    > Select the main class, and run Run As -> Java Application
+    
   - TASK5 - Implementation of a Rest API
+
+    > mvn clean && mvn install -DskipTests
+    
+    > mvn spring-boot:run
+    
+    ! localhost:8089/digiage ! 
 
 ## Sobre o SQL
   
