@@ -44,8 +44,16 @@ O objetivo é conhecer seus skills técnicos e também nos ajudar a melhorar os 
     > mvn clean && mvn install -DskipTests
     
     > mvn spring-boot:run
+
+    Ou
     
-    ! localhost:8089/digiage ! 
+    > Executar o TASK5.jar viu CMD
+    
+      > java -jar TASK5.jar (Vai subir a aplicação backend)
+      
+      > Utilizar alguma ferramenta de consulta (Postman, Insomnia) para testar
+    
+    ! localhost:8089/digiage/ ! 
 
 ## Sobre o SQL
   
